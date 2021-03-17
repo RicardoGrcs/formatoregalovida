@@ -26,8 +26,15 @@ export default function Seccion2() {
                 <label htmlFor="numidentificacion">MÉTODO PLANIFICACIÓN FAMILIAR TOMADO</label>
                 <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
                     <option value="na" selected>-- Selecione una opcion</option>
-                    <option value="si">SI</option>
-                    <option value="no">NO</option>
+                    <option value="si">PRESERVATIVO</option>
+                    <option value="no">DIU</option>
+                    <option value="no">NATURALES</option>
+                    <option value="no">IMPLANTE SUBDERMICO</option>
+                    <option value="no">INYECTABLES</option>
+                    <option value="no">ANTICONCEPTIVOS ORALES</option>
+                    <option value="no">POMEROY</option>
+                    <option value="no">VASECTOMIA</option>
+                    <option value="no">HISTERECTOMIA</option>
                 </select>
             </div>
         </div>

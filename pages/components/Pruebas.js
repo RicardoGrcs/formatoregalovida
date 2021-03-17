@@ -152,23 +152,28 @@ export default function Pruebas() {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-12">
-                <div className="form-group p-2">
-                    <label htmlFor="numidentificacion">TRATAMIENTO DE SÍFILIS NÚMERO DE DOSIS APLICADAS</label>
-                    <input className="form-control" type="date" name="numidentificacion"></input>
+
+            <div className="row">
+                <div className="col-md-4 col-sm-12">
+                    <div className="form-group p-2">
+                        <label htmlFor="numidentificacion">TRATAMIENTO DE SÍFILIS NÚMERO DE DOSIS APLICADAS</label>
+                        <input className="form-control" type="number" name="numidentificacion"></input>
+                    </div>
+                </div>
+                <div className="col-md-4 col-sm-12">
+                    <div className="form-group p-2">
+                        <label htmlFor="numidentificacion">TRATAMIENTO DE SÍFILIS A LA PAREJA</label>
+                        <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                            <option value="na" selected>-- Selecione una opcion</option>
+                            <option value="si">SI</option>
+                            <option value="no">NO</option>
+                            <option value="na">NA</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-12">
-                <div className="form-group p-2">
-                    <label htmlFor="numidentificacion">TRATAMIENTO DE SÍFILIS A LA PAREJA</label>
-                    <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
-                        <option value="na" selected>-- Selecione una opcion</option>
-                        <option value="si">SI</option>
-                        <option value="no">NO</option>
-                        <option value="na">NA</option>
-                    </select>
-                </div>
-            </div>
+
+
             <div className="col-md-4 col-sm-12">
                 <div className="form-group p-2">
                     <label htmlFor="numidentificacion">ASESORÍA DE LACTANCIA MATERNA</label>

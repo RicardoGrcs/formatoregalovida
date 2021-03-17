@@ -26,7 +26,6 @@ export default function Home() {
         <h2 className="text-center">MANUAL PROGRAMA DE ATENCIÓN INTEGRAL AL BINOMIO MADRE E HIJO. REGALO DE VIDA</h2>
         <form method="POST">
           <General></General>
-          <Pruebas></Pruebas>
           <Seccion></Seccion>
           <Seccion1></Seccion1>
           <Seccion2></Seccion2>
